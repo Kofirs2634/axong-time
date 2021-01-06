@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap');
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu Mono', monospace;
+    position: relative;
+    overflow: hidden;
+}
+.attr {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.item {
+    margin-bottom: 70px;
+    text-align: center;
+}
+.item:last-child { margin: 0 }
+.timer { font-size: 60px }
+.label {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+a { color: #00E }
